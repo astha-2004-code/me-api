@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 
 import profileRoutes from "./routes/profile.js";
 import projectRoutes from "./routes/projects.js";
+import searchRoutes from "./routes/search.js";
 
 dotenv.config();
 
@@ -14,6 +15,8 @@ app.use(express.json());
 
 app.use("/profile", profileRoutes);
 app.use("/projects", projectRoutes);
+app.use("/search", searchRoutes);
+
 
 app.get("/health", (req, res) => {
   res.json({ status: "OK" });
