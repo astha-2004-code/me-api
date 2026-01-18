@@ -2,8 +2,11 @@
   "name": "me-api",
   "version": "1.0.0",
   "type": "module",
+  "description": "Personal portfolio backend API built with Node.js, Express, and MySQL",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -13,5 +16,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
