@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Me API Playground</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 40px;
+		}
+
+		h2 {
+			margin-top: 30px;
+		}
+
+		input {
+			padding: 8px;
+			width: 250px;
+		}
+
+		button {
+			padding: 8px 12px;
+			margin-left: 5px;
+		}
+
+		.card {
+			border: 1px solid #ddd;
+			padding: 12px;
+			margin: 10px 0;
+		}
+	</style>
+</head>
+
+<body>
+
+	<h1>Me API Playground</h1>
+
+	<h2>Profile</h2>
+	<div id="profile"></div>
+
+	<h2>Search Projects</h2>
+	<input type="text" id="searchInput" placeholder="Search by skill or keyword" />
+	<button onclick="search()">Search</button>
+
+	<h2>Projects</h2>
+	<div id="projects"></div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
