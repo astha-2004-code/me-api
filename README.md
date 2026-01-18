@@ -4,6 +4,12 @@ A simple RESTful API built with **Node.js**, **Express**, and **MySQL** to serve
 
 ---
 
+## 👤 About Me
+
+📄 **Resume:** [View Resume](https://drive.google.com/file/d/1O6KuKRQv6Af74VpBcANApekC4sfRkvSv/view?usp=drivesdk)
+
+---
+
 ## ✨ Features
 
 * Express-based REST API
@@ -148,4 +154,3 @@ ISC
 * `node_modules` should not be committed in production repositories.
 * Designed for personal or small-scale API usage.
 
-Feel free to customize and extend this API to fit your needs!
